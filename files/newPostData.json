@@ -1,0 +1,66 @@
+[
+{
+  "title": "Playwright API Testing",
+  "body": "This post was created using JSON payload",
+  "userId": 101
+},
+
+{
+  "title": "Playwright API Testing with file load from Json",
+  "body": "This post was created using JSON payload object 2",
+  "userId": 102
+},
+
+{
+  "title": "Playwright API Testing",
+  "body": "This post was created using JSON payload object 3",
+  "userId": 103
+},
+
+{
+  "title": "Playwright API Testing",
+  "body": "This post was created using JSON payload object 4",
+  "userId": 104
+},
+
+{
+  "title": "Playwright API Testing",
+  "body": "This post was created using JSON payload object 5",
+  "userId": 105
+},
+
+{
+  "title": "Playwright API Testing",
+  "body": "This post was created using JSON payload object 6",
+  "userId": 106
+},
+
+{
+  "title": "Playwright API Testing",
+  "body": "This post was created using JSON payload object 7",
+  "userId": 107
+},
+
+{
+  "title": "Playwright API Testing",
+  "body": "This post was created using JSON payload object 8",
+  "userId": 108
+},
+
+{
+  "title": "Playwright API Testing",
+  "body": "This post was created using JSON payload object 9",
+  "userId": 109
+},
+
+{
+  "title": "Playwright API Testing",
+  "body": "This post was created using JSON payload object 10",
+  "userId": 110
+},
+
+{
+    "title": "foo",
+    "body": "bar",
+    "userId": 1
+}]
