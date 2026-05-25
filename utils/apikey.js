@@ -29,7 +29,8 @@ export function apiKeyHeader1({
 }
 
 
-export function apiKeyQuery1(url:string, {
+//export function apiKeyQuery1(url:string, {
+export function apiKeyQuery1(url, {
   queryName = "appid",
   keyValue = "08d6740a3683e5074e12a001e470214f",
   extraParams = {}
@@ -48,4 +49,12 @@ export function apiKeyQuery1(url:string, {
 }
 
 
-// Removed duplicate TypeScript-annotated function to avoid type syntax in JS file.
+//export function apiKeyQuery(url:string, {
+export function apiKeyQuery(url, {
+  keyValue = "demo-api-key-123",
+  queryName = "apikey"}={}) {
+  if (!keyValue) throw new Error('API key is missing. Set API_KEY in environment or pass key explicitly.');
+  const hasQ = url.includes('?');
+  const sep = hasQ ? '&' : '?';
+  return `${url}${sep}${encodeURIComponent(queryName)}=${encodeURIComponent(keyValue)}`;
+}
