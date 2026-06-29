@@ -1,6 +1,7 @@
 const { test, expect } = require('@playwright/test');
 const path = require('node:path');
 
+test.describe.configure({ mode: 'parallel' }); // here we specified the mode as parallel, so that the test cases will run in parallel and it will reduce the execution time
 test('Screenshot and visual validation', async ({ page }) => {
 
     await page.goto('https://rahulshettyacademy.com/AutomationPractice/');

@@ -3,7 +3,7 @@ const { POManager } = require ('../../pageobjects/POManager');
 //We can remove above one aswell, but better to make the customTest and use as fixture
 const {customtest} = require ('../../utils/test-base');
 
-customtest('Online Web E2E with customtest fixture', async ({ page, testDataForOrder }) => {
+customtest(`@Murali Online Web E2E with customtest fixture`, async ({ page, testDataForOrder }) => {
 
     //testDataForOrder -- added the fixture
 

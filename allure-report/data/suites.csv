@@ -1,0 +1,3 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","7950","@Murali Online Web E2E with customtest fixture","","2026-06-29","passed","2026-06-29","","POBaseClass\c3.WebE2eCustomFixture.spec.js","",""
+"","3469","@Murali2 Calendar validations","","2026-06-29","passed","2026-06-29","","i2.Calendar.spec.js","",""

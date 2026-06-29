@@ -1,0 +1,4 @@
+[ 'ADIDAS ORIGINAL', 'ZARA COAT 3', 'iphone 13 pro' ]
+3
+ Thankyou for the order. 
+new order Id: | 6a41fcd9378febeacdd6ce17 | 
